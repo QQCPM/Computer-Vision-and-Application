@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+data/
+cifar-10-batches-py/
+
+# GitHub rejects files over 100 MB. These two final checkpoints stay in Downloads:
+#   ~/Downloads/final_model_vit_b32_finetuned.pth          (Tutorial 04, ~350 MB)
+#   ~/Downloads/Nguyen_Nhat_Quang_final_model.pth          (Tutorial 05, ~350 MB)
+final_model_vit_b32_finetuned.pth
+Nguyen_Nhat_Quang_final_model.pth
+your_model_weights.pth
+baseline_vit_scratch.pth
+baseline_pet_segmentation.pth
+resunet_5ep.pth
