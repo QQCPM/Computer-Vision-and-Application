@@ -1,4 +1,4 @@
-# SC5006 image AI work
+# SC5006 
 
 Completed labs and tutorials for the image / vision part of the course, kept in the order they were done.
 
@@ -12,11 +12,7 @@ Completed labs and tutorials for the image / vision part of the course, kept in 
 
 ## Not in this repo
 
-GitHub rejects single files over 100 MB. These stay in `~/Downloads`:
-
 - `final_model_vit_b32_finetuned.pth` — Tutorial 04 final ViT-B/32 (~350 MB)
-- `Nguyen_Nhat_Quang_final_model.pth` — Tutorial 05 final model (~350 MB)
+- `Quang_final_model.pth` — Tutorial 05 final model (~350 MB)
 
-Tutorial 05 also expects the course dataset `AIvsReal_train_test/` next to the notebook (`~/Downloads/AIvsReal/`). CIFAR-10 is downloaded by Tutorial 04 on first run.
 
-Smaller checkpoints are in `04-tutorial-ai-for-vision/checkpoints/`. Tutorial 06 includes `best_pet_segmentation.pth` and `predictions.zip`.
