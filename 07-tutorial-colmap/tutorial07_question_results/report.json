@@ -1,0 +1,115 @@
+{
+  "lab": 7,
+  "seed": 42,
+  "python": "3.12.6",
+  "pycolmap": "3.13.0",
+  "colmap_has_cuda": false,
+  "comparison": [
+    {
+      "label": "baseline",
+      "requested_features": 512,
+      "actual_keypoints_mean": 630.3333333333334,
+      "actual_keypoints_min": 594,
+      "actual_keypoints_max": 669,
+      "registered_images": 12,
+      "input_images": 12,
+      "points3D": 570,
+      "mean_reprojection_error_px": 0.8856061136534805,
+      "mean_track_length": 4.7596491228070175,
+      "extraction_s": 2.303642207989469,
+      "matching_s": 0.12220408394932747,
+      "mapping_s": 0.6974734158720821,
+      "total_s": 3.1233197078108788,
+      "sift_device": "cpu",
+      "bundle_adjustment_device": "cpu",
+      "database": "lab07_outputs/baseline_20261014T173053088692/database.db",
+      "work_directory": "lab07_outputs/baseline_20261014T173053088692"
+    },
+    {
+      "label": "feature4096",
+      "requested_features": 4096,
+      "actual_keypoints_mean": 2712.0,
+      "actual_keypoints_min": 2533,
+      "actual_keypoints_max": 3194,
+      "registered_images": 12,
+      "input_images": 12,
+      "points3D": 1757,
+      "mean_reprojection_error_px": 0.6156834091039688,
+      "mean_track_length": 5.080250426863973,
+      "extraction_s": 2.2064344161190093,
+      "matching_s": 0.6257698750123382,
+      "mapping_s": 1.6502762089949101,
+      "total_s": 4.4824805001262575,
+      "sift_device": "cpu",
+      "bundle_adjustment_device": "cpu",
+      "database": "lab07_outputs/feature4096_20261014T173057831558/database.db",
+      "work_directory": "lab07_outputs/feature4096_20261014T173057831558"
+    }
+  ],
+  "ratio_test_matches": 401,
+  "ransac_inliers": 345,
+  "reliable_point_fraction": 0.5333333333333333,
+  "input_manifest": [
+    {
+      "name": "000.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/000.png",
+      "sha256": "47f447d31a84d53494045087cbb8a40b877a68a76f549af14f6bb6f490a5b05d"
+    },
+    {
+      "name": "001.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/001.png",
+      "sha256": "05402df1d7247e794768461571c188737dcae5fcb34400990f5751244a3e41c0"
+    },
+    {
+      "name": "002.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/002.png",
+      "sha256": "e17135aa9b506fac24a9529ee56c37ef5a52c55498998d3de64cf3e46210dccc"
+    },
+    {
+      "name": "003.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/003.png",
+      "sha256": "3285c7cc6b4b75703a68f510072c5eca81cff9b983044426cbe2ca27d4e526c5"
+    },
+    {
+      "name": "004.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/004.png",
+      "sha256": "9976282206f9aff0fc3eaa3daa182ba93e0c6734c69bdf31f40989641b4f8fea"
+    },
+    {
+      "name": "005.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/005.png",
+      "sha256": "e7ce2bcabcd2b2972c505e2649eb0f5b9efb30adcd455d93f5014370d53f2653"
+    },
+    {
+      "name": "006.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/006.png",
+      "sha256": "57dfa176d28662655adda9c0c04d6949424ddb3c702f533ddb332543dd1dcbdb"
+    },
+    {
+      "name": "007.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/007.png",
+      "sha256": "da42e3dd198bc0951591b2a5e41bb15fbff18c2aef194d17a6acbf128487749e"
+    },
+    {
+      "name": "008.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/008.png",
+      "sha256": "a8b8ac9860697b9cb1bfe41b358b03aef7a97ecb2fa9af61bc6e11210d99e8be"
+    },
+    {
+      "name": "009.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/009.png",
+      "sha256": "beb825c8fee0b21801bca59ddddf65e560bd87fdc6823ec733cb8e6be05002c9"
+    },
+    {
+      "name": "010.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/010.png",
+      "sha256": "390054ae2969ce5ed0e8ed9b9c0501c527028b565e18807e0acd5d62a4627dae"
+    },
+    {
+      "name": "011.png",
+      "url": "https://raw.githubusercontent.com/facebookresearch/vggt/a288dd0f14786c93483e45524328726ab7b1b4ce/examples/llff_fern/images/011.png",
+      "sha256": "a3875f648038011549183d4c6a273be3d75e868e7f4971b474089121acbf8d52"
+    }
+  ],
+  "evaluation_note": "Real-image internal diagnostics; no ground-truth 3D accuracy claim."
+}
